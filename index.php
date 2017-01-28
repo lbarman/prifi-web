@@ -1,14 +1,21 @@
 <?php
 
-//Set no caching
-/*
-header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
-header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
-header("Cache-Control: no-store, no-cache, must-revalidate");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");
-*/
+//in debug, disable caching
+$debug = false;
+if($debug){
+  header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+  header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+  header("Cache-Control: no-store, no-cache, must-revalidate");
+  header("Cache-Control: post-check=0, pre-check=0", false);
+  header("Pragma: no-cache");
+  //show all errors
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+}
 
+//to build the latex-style reference list
+require("references.php");
 $refs = array(
    array('prifi', 'PriFi: A Low-Latency and Tracking-Resistant Protocol for Local-Area Anonymous Communication. ', 'Barman, Ludovic; Zamani, Mahdi; Dacosta, Italo; Feigenbaum, Joan; Ford, Bryan; Hubaux, Jean-Pierre and Wolinsky, David. ', 'Proceedings of the 2016 ACM on Workshop on Privacy in the Electronic Society'),
    array('tor', 'Tor: The second-generation onion router. ', 'Dingledine, Roger; Mathewson, Nick and Syverson, Paul. ', ''), 
@@ -18,50 +25,6 @@ $refs = array(
    array('sda', 'Secure Distributed Algorithm. ', 'DeDiS Lab, EPFL. ', '<a href="https://github.com/dedis/cothority">https://github.com/dedis/cothority</a>')
    );
 
-/**
- * Call to add a "[x]" at this place, and a "[x] $title" when "printRefs()" is called
- */
-function addRef($shortId, $title="", $authors="", $venue="") {
-   global $refs;
-
-   //search if it already exists
-   $exists = false;
-   for($i = 0; $i < sizeof($refs); $i++)
-   {
-      if ($refs[$i][0] == $shortId)
-      {
-         $exists = true;
-         $visibleNumber = $i+1;
-      }
-   }
-
-   //else, we insert it
-   if(!$exists){
-      $nextId = sizeof($refs);
-      $refs[$nextId] = array($shortId, $title, $authors, $venue);
-
-      $visibleNumber = $nextId+1; //we start at 1
-   }
-   print '<a class="ref" href="#ref'.($visibleNumber).'">['.$visibleNumber.']</a>';
-}
-
-/**
- * Prints all the "[x] $title" recorded with "addRef($title)"
- */
-function printRefs() {
-   global $refs;
-
-   echo '<ol class="reflist">';
-
-   $count = 1;
-   foreach($refs as $ref) {
-      $paper = $refs[$count-1];
-      echo '<li id="ref'.$count.'">['.$count.'] '.$paper[2].'<b>'.$paper[1].'</b><i>'.$paper[3].'</i></li>';
-      $count++;
-   }
-
-   echo '</ol>';
-}
 ?>
 
 <!DOCTYPE html>
