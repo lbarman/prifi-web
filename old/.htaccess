@@ -1,4 +1,0 @@
-AuthName "PriFi - Request access to lbarman"
-AuthType Basic
-AuthUserFile /var/www/html_safe/prifi/.htpasswd
-require valid-user
