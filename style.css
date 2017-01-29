@@ -987,3 +987,8 @@ h3 {
     padding: 3px;
     background-color: yellow;
 }
+.githubbadge{
+    display: inline;
+    margin-left: 3px;
+    vertical-align: -6px;
+}
