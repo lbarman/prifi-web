@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/lbarman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://prifi.net
+  * I am lbarman (https://keybase.io/lbarman) on keybase.
+  * I have a public key with fingerprint 720F 1E8F 1AD4 0505 ABFB  625C 5713 53C5 E0FB 9061
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010173573dad166ac3f21971b95a631f2b86c071daec4a30f586f8933c01b95217e30a",
+            "fingerprint": "720f1e8f1ad40505abfb625c571353c5e0fb9061",
+            "host": "keybase.io",
+            "key_id": "571353c5e0fb9061",
+            "kid": "010173573dad166ac3f21971b95a631f2b86c071daec4a30f586f8933c01b95217e30a",
+            "uid": "93fd552adece2c619f40bc0520aeee00",
+            "username": "lbarman"
+        },
+        "service": {
+            "hostname": "prifi.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485691327,
+    "expire_in": 157680000,
+    "prev": "3944cc0c5066a3a45edece0055762e544073bfa51508e379e5773063f54b63af",
+    "seqno": 26,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMItAnicrZJbSBRRGMfX1DTtYgQSQS9TYqnZOXPmzOysFWkpSQ8ZaRpEy5mZM+uQ
+O7vtjnaRBXXFAim6GGXR5aHIykJY7YblpYguaFB00bILC0Z0IUsqii5nxN567Lwc
+zsfv/z/f9+e7MSXWkRRTWvjpfWb9hvaYuz1NlY6ynQNd1Zzi07ZyrmpuIx27aIVG
+g5Z7o6FxLg5AACWEJaQRDYoiUZHOQ1mCioyJiKDOK05RBRLUCFUFgoCOnaLulBFS
+gc3wUKIIEC6L0w3TQwP+gGFazFbigQ6pU4dEEwAGmCi6IvJYxRJEGKmYAl2RgQiZ
+sNwXtBWsOYUEabbhYzX2cI+19w/+P/ddOWYnI13DmCcaVSmvilDWBaCoAPOAUEoB
+sMEgDZjESxldoZCAl5hcKItjxSpDpXau9iDjAItBN7JNajGdP+CzfKqvgpXLLcsf
+dNkya6vf5jZTxT3u4FYMU2MZMkUVDQQNn8m5ICNVy7AtoeDEogwRL2VxdIvfCFC3
+YRNYEp2AHfsfWsUskSwIqgpUDFgqiAiY2jMBgBnJUywIQEKKTjDEwEmRJFMsSQiI
+SMeCIiKic/ZMm0wf5+JF1ifxMM+g4TGJVRmgXKi3e32cIybJMTF+gr1cjqRJKX9X
+rnRRwm9zwbe5Dfm7jlwokm+G56xKngzSBwbA5AfV7mNl3cWdMw+kT9qQ11Mef/j1
+5YIvH6/1v62NfP4gTjnxqP7QSFlHRkeOd1Y49fud1VErfD80tZff0ThyazDSsqx7
+RdnXJzjr1LmKHO/wm9uFV/b86IxrTWi71Bcxc9f0XhvMP/21IerP3Pcq4i/PC78o
+yIwdbW6aV4MjccuXtoR3P/tV2HD13paHdUtizB2npm1rfc6nZtT487pCM1bXDQkp
+Rc6T85tyFs+uL+lI60tMzn03NLx9+qVll/dffxot2hyqTexqTFt4/OfF4q6XLfnN
+xpnzxW3rBr2ews7+9r0rRxtKGte2nH0cPXj0D1scRAQ=
+=jyI/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lbarman
+
+==================================================================
+
