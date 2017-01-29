@@ -162,6 +162,7 @@ $refs = array(
         <div class="people">
           <img src="img/noimg.png" alt="Matthieu Girod" class="imgPortrait">       
           <p>Matthieu Girod<br /><span class="place">EPFL</span></p>
+          <p class="web"><i class="fa fa-link" aria-hidden="true"></i> <a href="https://mgirod.ch">www</a></p>
         </div>
         <p>
         <h3>
