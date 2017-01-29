@@ -20,7 +20,7 @@ $refs = array(
    array('prifi', 'PriFi: A Low-Latency and Tracking-Resistant Protocol for Local-Area Anonymous Communication. ', 'Barman, Ludovic; Zamani, Mahdi; Dacosta, Italo; Feigenbaum, Joan; Ford, Bryan; Hubaux, Jean-Pierre and Wolinsky, David. ', 'Proceedings of the 2016 ACM on Workshop on Privacy in the Electronic Society'),
    array('tor', 'Tor: The second-generation onion router. ', 'Dingledine, Roger; Mathewson, Nick and Syverson, Paul. ', ''), 
    array('dcnet', 'The dining cryptographers problem: Unconditional sender and recipient untraceability. ', 'Chaum, David. ', 'Journal of cryptology'), 
-   array('anytrust', 'Scalable anonymous group communication in the anytrust model. ', 'Wolinsky, David I; Corrigan-Gibbs, Henry; Ford, Bryan and Johnson, Aaron. '),
+   array('anytrust', 'Scalable anonymous group communication in the anytrust model. ', 'Wolinsky, David I; Corrigan-Gibbs, Henry; Ford, Bryan and Johnson, Aaron. ', ''),
    array('taattacks', 'Traffic analysis: Protocols, attacks, design issues, and open problems. ', 'Raymond, Jean-François. ', 'Springer'),
    array('sda', 'Secure Distributed Algorithm. ', 'DeDiS Lab, EPFL. ', '<a href="https://github.com/dedis/cothority">https://github.com/dedis/cothority</a>')
    );
