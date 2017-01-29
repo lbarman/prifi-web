@@ -14,4 +14,4 @@ w3c:
 clean:
 	@rm -f compiled.html
 
-all: lint php_errors lint w3c clean
+all: lint php_errors compile w3c clean
