@@ -142,6 +142,11 @@ $refs = array(
           <p class="web"><i class="fa fa-link" aria-hidden="true"></i> <a href="https://people.epfl.ch/italo.dacosta">www</a></p>
         </div>
         <div class="people">
+          <img src="img/ennan.jpg" alt="Ennan Zhai" class="imgPortrait">         
+          <p>Ennan Zhai<br /><span class="place">Yale</span></p>
+          <p class="web"><i class="fa fa-link" aria-hidden="true"></i> <a href="http://www.cs.yale.edu/homes/zhai-ennan/">www</a></p>
+        </div>
+        <div class="people">
           <img src="img/ludovic.png" alt="Ludovic Barman" class="imgPortrait">       
           <p>Ludovic Barman<br /><span class="place">EPFL</span></p>
           <p class="web"><i class="fa fa-link" aria-hidden="true"></i> <a href="https://lbarman.ch">www</a></p>
